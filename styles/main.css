@@ -38,5 +38,9 @@
 /* VRSTVA PRO VAŠE STYLY */
 @layer design {
    
+    .image-responsive {
+        display: block;
+        width: 100%;
+    }
 
 }
