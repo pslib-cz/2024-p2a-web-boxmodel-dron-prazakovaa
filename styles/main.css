@@ -48,6 +48,7 @@
         background-size: cover;
         background-position: bottom left;
         padding: 1em;
+        min-height: 80vh;
     }
 
     .page__logo{
@@ -58,15 +59,29 @@
         margin: 0 auto;
     }
 
-    .page__intro{
+    .page__intro {
+        text-align: bottom left;
         color: var(--light, white);
     }
 
     .page__content {
         padding: 1em;
+        max-width: 960px;
+        margin: 0 auto;
     }
 
-    .button{
+    .picture-box {
+        margin: 0;
+    }
+
+    .picture-box__caption{
+        font-size: 0.8em;
+        color: var(--gray, gray);
+        text-align: center;
+        margin-top: 1em;
+    }
+
+    .button {
         display: inline-block;
         background-color: var(--primary, aqua);
         color: var(--light, white);
@@ -76,18 +91,37 @@
         text-decoration: none;
     }
 
-    .button:hover{
+    .button:hover {
         text-decoration: underline;
         text-decoration-thickness: 0.05em;
         background-color: var(--black, black);
         color: var(--light, white);
     }
 
-    .button--light{
+    .button--light {
         background-color: var(--light, white);
         color: var(--black, black);
     }
 
-    
+    .text-h3{
+        font-size: 1.125em;
+        font-weight: 700;
+        margin-bottom: 1em;
+    }
 
+    .outline-box {
+        border: 2px solid var(--primary, aqua);
+        padding: 1em;
+        margin: 1em 0;
+    }
+
+    .list > li::marker{
+        color: var(--primary, aqua);
+    }
+
+    .product {
+        padding: 1em;
+        max-width: 24em;
+        display: inline-block;
+    }
 }
