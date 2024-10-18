@@ -18,7 +18,7 @@
     }
     .page__logo::before {
         content: "";
-        display: inline-block;
+        display: block;
         background: center / contain no-repeat transparent;
         /*
         background-position: center;
@@ -26,8 +26,8 @@
         background-repeat: no-repeat;
         */
         background-image: url("../images/logo.svg");
-        height: 1em;
-        width: 2em;
+        height: 100%;
+        width: auto;
         font-size: 1.5em;
     }
     .page__logo > span {
@@ -50,33 +50,44 @@
         padding: 1em;
     }
 
-    .page__logo-container{
-        text-align: center;
-    }
-
     .page__logo{
-        display: inline-block;
-        
+        display: block;
+        padding: 1em;
+        height: 2em;
+        aspect-ratio: 42/24;
+        margin: 0 auto;
     }
 
-    .page__intro {
+    .page__intro{
         color: var(--light, white);
-        margin: 0 0 1em 1em;
     }
 
-    .button {
+    .page__content {
+        padding: 1em;
+    }
+
+    .button{
         display: inline-block;
-        background-color: var(--primary), aquamarine;
-        color: var(--light);
-        padding: 0.5em 1em;
+        background-color: var(--primary, aqua);
+        color: var(--light, white);
+        padding: 1em 2em;
         border-radius: 0.5em;
-        font-weight: 700;
+        font-weight: 600;
         text-decoration: none;
     }
 
-    .button--light {
-        background-color: var(--light), white;
+    .button:hover{
+        text-decoration: underline;
+        text-decoration-thickness: 0.05em;
+        background-color: var(--black, black);
+        color: var(--light, white);
+    }
+
+    .button--light{
+        background-color: var(--light, white);
         color: var(--black, black);
     }
+
+    
 
 }
