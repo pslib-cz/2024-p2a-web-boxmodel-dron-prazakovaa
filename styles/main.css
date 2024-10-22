@@ -60,7 +60,6 @@
     }
 
     .page__intro {
-        text-align: bottom left;
         color: var(--light, white);
     }
 
@@ -119,9 +118,13 @@
         color: var(--primary, aqua);
     }
 
-    .product {
+    .product{
         padding: 1em;
         max-width: 24em;
         display: inline-block;
+    }
+
+    .ad{
+        
     }
 }
