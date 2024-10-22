@@ -125,6 +125,23 @@
     }
 
     .ad{
-        
+        background-color: var(--gray, gray);
+        color: var(--light, white);
+        padding: 5em;
+        font-size: 1em;
+        font-weight: 500;
+        text-align: center;
+        margin: 2em 0em;
+    }
+
+    .text-h4 {
+        font-size: 4.5em;
+        font-weight: 570;
+        margin: 0px;
+    }
+
+    .text-h4 > strong {
+        font-size: 1.7em;
+        font-weight: 700;
     }
 }
