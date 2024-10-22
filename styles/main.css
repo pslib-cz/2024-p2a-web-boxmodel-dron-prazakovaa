@@ -144,4 +144,12 @@
         font-size: 1.7em;
         font-weight: 700;
     }
+
+    .page__footer {
+        background-color: var(--gray, gray);
+        color: white;
+        padding: 1.5em 0em;
+        text-align: center;
+        margin-top: 1em;
+    }
 }
