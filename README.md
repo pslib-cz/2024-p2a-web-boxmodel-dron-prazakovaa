@@ -1,2 +1,2 @@
-# 2024-p2a-web-boxmodel-dron-prazakovaa
-2024-p2a-web-boxmodel-dron-prazakovaa created by GitHub Classroom
+## 2024-p2a-web-boxmodel-dron-prazakovaa
+### [náhled webu] (https://pslib-cz.github.io/2024-p2a-web-boxmodel-dron-prazakovaa/)
