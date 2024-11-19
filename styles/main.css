@@ -152,4 +152,23 @@
         text-align: center;
         margin-top: 1em;
     }
+
+    .gallery{
+        --indent: 0.5em;
+        margin: calc(-1 * var(--indent));
+    }
+    .gallery__item{
+        display: inline-block;
+        margin: var(--indent);
+    }
+ 
+    @media (min-width: 768px) {
+        .gallery__item{
+            display: inline-block;
+            width: calc(50% - 2 * var(--indent));
+        }
+        .gallery__item--100w{
+            width: calc(100% - 2 * var(--indent));
+        }
+    }
 }
